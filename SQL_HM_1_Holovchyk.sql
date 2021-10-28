@@ -81,14 +81,17 @@ Valeria Holovchyk
 	select * from students
 	where id = 10;
 
--- 18. Вывести пользователя у которых id равен 53     select * from students
-						    where id = 53;
+-- 18. Вывести пользователя у которых id равен 53     
+	select * from students
+	where id = 53;
  
--- 19. Вывести пользователя у которых id больше 40     select * from students
-						     where id > 40;
+-- 19. Вывести пользователя у которых id больше 40     
+	select * from students
+	where id > 40;
 
--- 20. Вывести пользователя у которых id меньше 30      select * from students
-						      where id < 30;
+-- 20. Вывести пользователя у которых id меньше 30      
+	select * from students
+	where id < 30;
 
 -- 21. Вывести пользователя у которых id меньше 27 или больше 88     
    select * from students
