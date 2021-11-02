@@ -53,7 +53,7 @@ Valeria Holovchyk
 -- 12. Вывести пользователей где в имени в есть буква а    
 
 	select * from students
-	where name like '%a';
+	where name like '%a%';
 
 
 -- 13. Вывести пользователей которые были созданы 2021-07-12 00:00:00  
@@ -81,14 +81,17 @@ Valeria Holovchyk
 	select * from students
 	where id = 10;
 
--- 18. Вывести пользователя у которых id равен 53     select * from students
-						    where id = 53;
+-- 18. Вывести пользователя у которых id равен 53     
+	select * from students
+	where id = 53;
  
--- 19. Вывести пользователя у которых id больше 40     select * from students
-						     where id > 40;
+-- 19. Вывести пользователя у которых id больше 40     
+	select * from students
+	where id > 40;
 
--- 20. Вывести пользователя у которых id меньше 30      select * from students
-						      where id < 30;
+-- 20. Вывести пользователя у которых id меньше 30      
+	select * from students
+	where id < 30;
 
 -- 21. Вывести пользователя у которых id меньше 27 или больше 88     
    select * from students
@@ -135,6 +138,6 @@ Valeria Holovchyk
 
  --32. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля. 
                                                    
-select id, name, created_on from students s 
+select id, name, created_on from students
 order by created_on DESC;
 
